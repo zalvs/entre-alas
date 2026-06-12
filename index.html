@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Flip Book</title>
+    <title>Entre Alas</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="./style.css">
@@ -41,9 +41,17 @@
         <input type="checkbox" id="page3_checkbox">
         <input type="checkbox" id="page4_checkbox">
         <input type="checkbox" id="page5_checkbox">
+        <input type="checkbox" id="page6_checkbox">
+        <input type="checkbox" id="page7_checkbox">
+        <input type="checkbox" id="page8_checkbox">
+        <input type="checkbox" id="page9_checkbox">
+        <input type="checkbox" id="page10_checkbox">
+        <input type="checkbox" id="page11_checkbox">
+        <input type="checkbox" id="page12_checkbox">
 
         <div id="flip_book">
             <div class="front_cover">
+                <img class="cover_img" src="./assets/images/pages/cover.jpg" alt="Capa">
                 <label for="cover_checkbox" id="cover"></label>
             </div>
 
@@ -51,13 +59,12 @@
                 <div class="front_page">
                     <label for="page1_checkbox"></label>
                     <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
-                    <img class="front_content" src="./assets/images/pages/page1.webp" alt="Front content">
+                    <img class="front_content" src="./assets/images/pages/page1.jpg" alt="Page 1">
                 </div>
-
                 <div class="back_page">
                     <label for="page1_checkbox"></label>
                     <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
-                    <img class="back_content" src="./assets/images/pages/page2.webp" alt="Back content">
+                    <img class="back_content" src="./assets/images/pages/page2.jpg" alt="Page 2">
                 </div>
             </div>
 
@@ -65,13 +72,12 @@
                 <div class="front_page">
                     <label for="page2_checkbox"></label>
                     <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
-                    <img class="front_content" src="./assets/images/pages/page3.webp" alt="Front content">
+                    <img class="front_content" src="./assets/images/pages/page3.jpg" alt="Page 3">
                 </div>
-
                 <div class="back_page">
                     <label for="page2_checkbox"></label>
                     <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
-                    <img class="back_content" src="./assets/images/pages/page4.webp" alt="Back content">
+                    <img class="back_content" src="./assets/images/pages/page4.jpg" alt="Page 4">
                 </div>
             </div>
 
@@ -79,13 +85,12 @@
                 <div class="front_page">
                     <label for="page3_checkbox"></label>
                     <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
-                    <img class="front_content" src="./assets/images/pages/page5.webp" alt="Front content">
+                    <img class="front_content" src="./assets/images/pages/page5.jpg" alt="Page 5">
                 </div>
-
                 <div class="back_page">
                     <label for="page3_checkbox"></label>
                     <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
-                    <img class="back_content" src="./assets/images/pages/page6.webp" alt="Back content">
+                    <img class="back_content" src="./assets/images/pages/page6.jpg" alt="Page 6">
                 </div>
             </div>
 
@@ -93,13 +98,12 @@
                 <div class="front_page">
                     <label for="page4_checkbox"></label>
                     <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
-                    <img class="front_content" src="./assets/images/pages/page7.webp" alt="Front content">
+                    <img class="front_content" src="./assets/images/pages/page7.jpg" alt="Page 7">
                 </div>
-
                 <div class="back_page">
                     <label for="page4_checkbox"></label>
                     <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
-                    <img class="back_content" src="./assets/images/pages/page8.webp" alt="Back content">
+                    <img class="back_content" src="./assets/images/pages/page8.jpg" alt="Page 8">
                 </div>
             </div>
 
@@ -107,30 +111,109 @@
                 <div class="front_page">
                     <label for="page5_checkbox"></label>
                     <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
-                    <img class="front_content" src="./assets/images/pages/page9.webp" alt="Front content">
+                    <img class="front_content" src="./assets/images/pages/page9.jpg" alt="Page 9">
                 </div>
-
                 <div class="back_page">
                     <label for="page5_checkbox"></label>
                     <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
-                    <img class="back_content" src="./assets/images/pages/page10.webp" alt="Back content">
+                    <img class="back_content" src="./assets/images/pages/page10.jpg" alt="Page 10">
                 </div>
             </div>
 
-            <div class="back_cover"></div>
-        </div>
+            <div class="page" id="page6">
+                <div class="front_page">
+                    <label for="page6_checkbox"></label>
+                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
+                    <img class="front_content" src="./assets/images/pages/page11.jpg" alt="Page 11">
+                </div>
+                <div class="back_page">
+                    <label for="page6_checkbox"></label>
+                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
+                    <img class="back_content" src="./assets/images/pages/page12.jpg" alt="Page 12">
+                </div>
+            </div>
 
-        <!-- BOTTOM CONTAINER -->
-        <div class="fixed left-0 bottom-0 w-full h-auto p-4 flex flex-row justify-between items-center">
-            <!-- GITHUB LINK -->
-            <a class="tooltip tooltip-right" data-tip="Click to visit the GitHub repository." href="https://github.com/fchavonet/creative_coding-flip_book" target="_blank">
-                <img src="https://img.shields.io/github/stars/fchavonet/creative_coding-flip_book?style=social&label=GitHub%20Stars" alt="GitHub Stars">
-            </a>
+            <div class="page" id="page7">
+                <div class="front_page">
+                    <label for="page7_checkbox"></label>
+                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
+                    <img class="front_content" src="./assets/images/pages/page13.jpg" alt="Page 13">
+                </div>
+                <div class="back_page">
+                    <label for="page7_checkbox"></label>
+                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
+                    <img class="back_content" src="./assets/images/pages/page14.jpg" alt="Page 14">
+                </div>
+            </div>
 
-            <!-- PORTFOLIO LINK -->
-            <a class="link link-hover text-xs" href="https://www.fchavonet.dev" target="_blank">
-                www.fchavonet.dev
-            </a>
+            <div class="page" id="page8">
+                <div class="front_page">
+                    <label for="page8_checkbox"></label>
+                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
+                    <img class="front_content" src="./assets/images/pages/page15.jpg" alt="Page 15">
+                </div>
+                <div class="back_page">
+                    <label for="page8_checkbox"></label>
+                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
+                    <img class="back_content" src="./assets/images/pages/page16.jpg" alt="Page 16">
+                </div>
+            </div>
+
+            <div class="page" id="page9">
+                <div class="front_page">
+                    <label for="page9_checkbox"></label>
+                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
+                    <img class="front_content" src="./assets/images/pages/page17.jpg" alt="Page 17">
+                </div>
+                <div class="back_page">
+                    <label for="page9_checkbox"></label>
+                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
+                    <img class="back_content" src="./assets/images/pages/page18.jpg" alt="Page 18">
+                </div>
+            </div>
+
+            <div class="page" id="page10">
+                <div class="front_page">
+                    <label for="page10_checkbox"></label>
+                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
+                    <img class="front_content" src="./assets/images/pages/page19.jpg" alt="Page 19">
+                </div>
+                <div class="back_page">
+                    <label for="page10_checkbox"></label>
+                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
+                    <img class="back_content" src="./assets/images/pages/page20.jpg" alt="Page 20">
+                </div>
+            </div>
+
+            <div class="page" id="page11">
+                <div class="front_page">
+                    <label for="page11_checkbox"></label>
+                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
+                    <img class="front_content" src="./assets/images/pages/page21.jpg" alt="Page 21">
+                </div>
+                <div class="back_page">
+                    <label for="page11_checkbox"></label>
+                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
+                    <img class="back_content" src="./assets/images/pages/page22.jpg" alt="Page 22">
+                </div>
+            </div>
+
+            <div class="page" id="page12">
+                <div class="front_page">
+                    <label for="page12_checkbox"></label>
+                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
+                    <img class="front_content" src="./assets/images/pages/page23.jpg" alt="Page 23">
+                </div>
+                <div class="back_page">
+                    <label for="page12_checkbox"></label>
+                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
+                    <img class="back_content" src="./assets/images/pages/page24.jpg" alt="Page 24">
+                </div>
+            </div>
+
+            <div class="back_cover">
+                <img class="back_cover_img" src="./assets/images/pages/back_cover.jpg" alt="Contracapa">
+            </div>
         </div>
 
         <!-- RESPONSIVE WARNING -->
@@ -139,11 +222,11 @@
                 <i class="bi bi-aspect-ratio text-4xl"></i>
 
                 <p class="text-lg font-semibold -mt-2">
-                    This web application is designed for larger screens.
+                    Esta aplicação foi projetada para telas maiores.
                 </p>
 
                 <p class="text-xs">
-                    A mobile-friendly version is coming soon...
+                    Uma versão mobile está chegando em breve...
                 </p>
             </div>
         </dialog>
