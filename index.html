@@ -26,7 +26,6 @@
     <main>
         <!-- TOP CONTAINER -->
         <div class="fixed top-0 left-0 w-full h-auto p-4 flex flex-row justify-end items-center">
-            <!-- Toggle mode button -->
             <label class="swap swap-rotate">
                 <input type="checkbox" class="theme-controller" value="black" />
                 <i class="bi bi-sun-fill swap-on"></i>
@@ -50,164 +49,176 @@
         <input type="checkbox" id="page12_checkbox">
 
         <div id="flip_book">
+            <!-- Capa: frente = PDF 1, verso = PDF 2 -->
             <div class="front_cover">
                 <img class="cover_img" src="./assets/images/pages/cover.jpg" alt="Capa">
+                <img class="cover_inside_img" src="./assets/images/pages/page1.jpg" alt="Interior da capa">
                 <label for="cover_checkbox" id="cover"></label>
             </div>
 
+            <!-- Página 1: frente = PDF 3, verso = PDF 4 -->
             <div class="page" id="page1">
                 <div class="front_page">
                     <label for="page1_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
-                    <img class="front_content" src="./assets/images/pages/page1.jpg" alt="Page 1">
+                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="">
+                    <img class="front_content" src="./assets/images/pages/page2.jpg" alt="Página 3">
                 </div>
                 <div class="back_page">
                     <label for="page1_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
-                    <img class="back_content" src="./assets/images/pages/page2.jpg" alt="Page 2">
+                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="">
+                    <img class="back_content" src="./assets/images/pages/page3.jpg" alt="Página 4">
                 </div>
             </div>
 
+            <!-- Página 2: frente = PDF 5, verso = PDF 6 -->
             <div class="page" id="page2">
                 <div class="front_page">
                     <label for="page2_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
-                    <img class="front_content" src="./assets/images/pages/page3.jpg" alt="Page 3">
+                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="">
+                    <img class="front_content" src="./assets/images/pages/page4.jpg" alt="Página 5">
                 </div>
                 <div class="back_page">
                     <label for="page2_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
-                    <img class="back_content" src="./assets/images/pages/page4.jpg" alt="Page 4">
+                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="">
+                    <img class="back_content" src="./assets/images/pages/page5.jpg" alt="Página 6">
                 </div>
             </div>
 
+            <!-- Página 3: frente = PDF 7, verso = PDF 8 -->
             <div class="page" id="page3">
                 <div class="front_page">
                     <label for="page3_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
-                    <img class="front_content" src="./assets/images/pages/page5.jpg" alt="Page 5">
+                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="">
+                    <img class="front_content" src="./assets/images/pages/page6.jpg" alt="Página 7">
                 </div>
                 <div class="back_page">
                     <label for="page3_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
-                    <img class="back_content" src="./assets/images/pages/page6.jpg" alt="Page 6">
+                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="">
+                    <img class="back_content" src="./assets/images/pages/page7.jpg" alt="Página 8">
                 </div>
             </div>
 
+            <!-- Página 4: frente = PDF 9, verso = PDF 10 -->
             <div class="page" id="page4">
                 <div class="front_page">
                     <label for="page4_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
-                    <img class="front_content" src="./assets/images/pages/page7.jpg" alt="Page 7">
+                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="">
+                    <img class="front_content" src="./assets/images/pages/page8.jpg" alt="Página 9">
                 </div>
                 <div class="back_page">
                     <label for="page4_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
-                    <img class="back_content" src="./assets/images/pages/page8.jpg" alt="Page 8">
+                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="">
+                    <img class="back_content" src="./assets/images/pages/page9.jpg" alt="Página 10">
                 </div>
             </div>
 
+            <!-- Página 5: frente = PDF 11, verso = PDF 12 -->
             <div class="page" id="page5">
                 <div class="front_page">
                     <label for="page5_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
-                    <img class="front_content" src="./assets/images/pages/page9.jpg" alt="Page 9">
+                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="">
+                    <img class="front_content" src="./assets/images/pages/page10.jpg" alt="Página 11">
                 </div>
                 <div class="back_page">
                     <label for="page5_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
-                    <img class="back_content" src="./assets/images/pages/page10.jpg" alt="Page 10">
+                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="">
+                    <img class="back_content" src="./assets/images/pages/page11.jpg" alt="Página 12">
                 </div>
             </div>
 
+            <!-- Página 6: frente = PDF 13, verso = PDF 14 -->
             <div class="page" id="page6">
                 <div class="front_page">
                     <label for="page6_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
-                    <img class="front_content" src="./assets/images/pages/page11.jpg" alt="Page 11">
+                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="">
+                    <img class="front_content" src="./assets/images/pages/page12.jpg" alt="Página 13">
                 </div>
                 <div class="back_page">
                     <label for="page6_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
-                    <img class="back_content" src="./assets/images/pages/page12.jpg" alt="Page 12">
+                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="">
+                    <img class="back_content" src="./assets/images/pages/page13.jpg" alt="Página 14">
                 </div>
             </div>
 
+            <!-- Página 7: frente = PDF 15, verso = PDF 16 -->
             <div class="page" id="page7">
                 <div class="front_page">
                     <label for="page7_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
-                    <img class="front_content" src="./assets/images/pages/page13.jpg" alt="Page 13">
+                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="">
+                    <img class="front_content" src="./assets/images/pages/page14.jpg" alt="Página 15">
                 </div>
                 <div class="back_page">
                     <label for="page7_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
-                    <img class="back_content" src="./assets/images/pages/page14.jpg" alt="Page 14">
+                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="">
+                    <img class="back_content" src="./assets/images/pages/page15.jpg" alt="Página 16">
                 </div>
             </div>
 
+            <!-- Página 8: frente = PDF 17, verso = PDF 18 -->
             <div class="page" id="page8">
                 <div class="front_page">
                     <label for="page8_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
-                    <img class="front_content" src="./assets/images/pages/page15.jpg" alt="Page 15">
+                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="">
+                    <img class="front_content" src="./assets/images/pages/page16.jpg" alt="Página 17">
                 </div>
                 <div class="back_page">
                     <label for="page8_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
-                    <img class="back_content" src="./assets/images/pages/page16.jpg" alt="Page 16">
+                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="">
+                    <img class="back_content" src="./assets/images/pages/page17.jpg" alt="Página 18">
                 </div>
             </div>
 
+            <!-- Página 9: frente = PDF 19, verso = PDF 20 -->
             <div class="page" id="page9">
                 <div class="front_page">
                     <label for="page9_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
-                    <img class="front_content" src="./assets/images/pages/page17.jpg" alt="Page 17">
+                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="">
+                    <img class="front_content" src="./assets/images/pages/page18.jpg" alt="Página 19">
                 </div>
                 <div class="back_page">
                     <label for="page9_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
-                    <img class="back_content" src="./assets/images/pages/page18.jpg" alt="Page 18">
+                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="">
+                    <img class="back_content" src="./assets/images/pages/page19.jpg" alt="Página 20">
                 </div>
             </div>
 
+            <!-- Página 10: frente = PDF 21, verso = PDF 22 -->
             <div class="page" id="page10">
                 <div class="front_page">
                     <label for="page10_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
-                    <img class="front_content" src="./assets/images/pages/page19.jpg" alt="Page 19">
+                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="">
+                    <img class="front_content" src="./assets/images/pages/page20.jpg" alt="Página 21">
                 </div>
                 <div class="back_page">
                     <label for="page10_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
-                    <img class="back_content" src="./assets/images/pages/page20.jpg" alt="Page 20">
+                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="">
+                    <img class="back_content" src="./assets/images/pages/page21.jpg" alt="Página 22">
                 </div>
             </div>
 
+            <!-- Página 11: frente = PDF 23, verso = PDF 24 -->
             <div class="page" id="page11">
                 <div class="front_page">
                     <label for="page11_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
-                    <img class="front_content" src="./assets/images/pages/page21.jpg" alt="Page 21">
+                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="">
+                    <img class="front_content" src="./assets/images/pages/page22.jpg" alt="Página 23">
                 </div>
                 <div class="back_page">
                     <label for="page11_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
-                    <img class="back_content" src="./assets/images/pages/page22.jpg" alt="Page 22">
+                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="">
+                    <img class="back_content" src="./assets/images/pages/page23.jpg" alt="Página 24">
                 </div>
             </div>
 
+            <!-- Página 12: frente = PDF 25, verso vazio (contracapa atrás) -->
             <div class="page" id="page12">
                 <div class="front_page">
                     <label for="page12_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="Front page edge shading">
-                    <img class="front_content" src="./assets/images/pages/page23.jpg" alt="Page 23">
+                    <img class="edge_shading" src="./assets/images/front_page_edge_shading.webp" alt="">
+                    <img class="front_content" src="./assets/images/pages/page24.jpg" alt="Página 25">
                 </div>
                 <div class="back_page">
                     <label for="page12_checkbox"></label>
-                    <img class="edge_shading" src="./assets/images/back_page_edge_shading.webp" alt="Back page edge shading">
-                    <img class="back_content" src="./assets/images/pages/page24.jpg" alt="Page 24">
                 </div>
             </div>
 
